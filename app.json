@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Coinsensei",
+    "slug": "coinsensei",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/android-chrome-512x512.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/apple-touch-icon.png",
+      "bundleIdentifier": "com.coinsensei.app",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Face ID is used to quickly and securely sign in to your account.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-chrome-192x192.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.coinsensei.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon-32x32.png"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e0788e2d-36f7-494b-b2fa-f21fab17b380"
+      }
+    },
+    "owner": "kabeeahmad.ka"
+  }
+}
